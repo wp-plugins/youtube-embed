@@ -1,0 +1,339 @@
+=== YouTube Embed ===
+Contributors: dartiss
+Donate link: http://artiss.co.uk/donate
+Tags: YouTube, embed, XHTML, video, playlist, thumbnail, EmbedPlus, widget, shortcode
+Requires at least: 2.8
+Tested up to: 3.1
+Stable tag: 1.5
+
+YouTube Embed is a powerful, but simple to use, method of embedding YouTube videos in your WordPress theme.
+
+== Description ==
+
+**If you have upgraded an existing version of this plugin to 1.4 or 1.4.1 or above you may find that your videos no longer appear. To resolve this please download 1.4.2 or above.**
+
+YouTube Embed is a powerful, but simple to use, method of embedding YouTube videos in your WordPress theme.
+
+It works with all the current YouTube API parameters, including HD video, and produces XHTML valid output. It also, unlike many other similar plugins, works with videos with certain characters within their ID (e.g. double dashes).
+
+**For help with this plugin, or simply to comment or get in touch, please read the appropriate section in "Other Notes" for details. This plugin, and all support, is supplied for free, but [donations](http://artiss.co.uk/donate "Donate") are always welcome.**
+
+Over the coming instructions I'll take you through the various ways to embed video, playlists and other YouTube related abilities.
+
+From version 1.4 this plugin also supports [EmbedPlus](http://embedplus.com/ "EmbedPlus"), which adds real-time reactions, chopping, movable zoom, slow motion, annotations, chapter / scene skipping, amongst others.
+
+There are 3 ways to embed a video - a function call (requires PHP coding, but can be placed anywhere), a short code (which can be easily placed in a post or page) or with a sidebar widget.
+
+A video will use the default settings which can be changed via the YouTube Embed options screen within your administration panel. However, you can also change any of these settings on a per-video basis. For a full list of the available parameters, please see the separate section.
+
+Let's go through each of the 3 methods in turn...
+
+**1. Function Call**
+
+For those with access (and the requirement) to their theme PHP, a function calls adds total flexibility as it can be added anywhere within your theme.
+
+`<?php if (function_exists('youtube_video_embed')) {youtube_video_embed('id','paras','style');} ?>`
+
+Where id is the video ID, paras is a list of parameters (more on this in a minute) and style (optional) is a list of stylesheet elements that you wish to apply to the resulting video.
+
+The parameters are supplied with an ampersand separating each. Here's an example where I override the height and width of a video...
+
+`<?php if (function_exists('youtube_video_embed')) {youtube_video_embed('id','width=100&height=200');} ?>`
+
+**2. Short Code**
+
+This is an easy one. Within any post or page, simply type the following...
+
+`[youtube]id[/youtube]`
+
+Where id is the ID of the video.
+
+If you wish to override any of the settings then these must be specified within the opening short code. So, to adjust the width and height, you'd put...
+
+`[youtube width=100 height=200]id[/youtube]`
+
+In this case, the width is 100px and the height is 200px. You may also specify a stylesheet override by using the `style` parameter. For example...
+
+`[youtube style="text-align:center"]id[/youtube]`
+
+This will centre the resulting video.
+
+**3. Widget**
+
+The widget is available from the Appearance->Widgets menu within Administration.
+
+Drag it to the appropriate sidebar and click on the down arrow to modify the default options. The options must be set as you have to specify the video ID and type (video or playlist).
+
+**EmbedPlus**
+
+To use EmbedPlus you can either set this on via the default options screen or, on an individual basis, use the parameter `embedplus`.
+
+For example, here is EmbedPlus being used for both a PHP function and a shortcode...
+
+`youtube_video_embed('id','width=100&height=200&embedplus=yes');
+[youtube width="100" height="200" embedplus="Yes"]id[/youtube]`
+
+When using the widget option, you can select EmbedPlus as the "type" of video, along with a standard video and a playlist.
+
+**Playlists**
+
+You can also embed playlists using any of the video embedding methods mentioned before.
+
+For function calls, simply use the function `youtube_playlist_embed`, with the same parameters as the video equivalent.
+
+For short codes, use the short code `[youtube_playlist]`, again with the same parameters as before.
+
+For the widget, simply change the "Type" option in the Widget options to "Playlist".
+
+In all cases you must specify a valid playlist ID, instead of the standard video ID.
+
+**Thumbnails**
+
+YouTube embed also has the ability to return a thumbnail of a video (sorry, this doesn't work with playlists).
+
+There are two methods you can use for this - a shortcode or a function call.
+
+Use the following function call to add a thumbnail to any part of your theme.
+
+`<?php if (function_exists('youtube_thumb_embed')) {youtube_thumb_embed('id','paras','style','alt');} ?>`
+
+Like the video embed equivalent, the ID is the video ID, the style is a list of stylesheet elements (but is optional) and alt is the alternative text for the thumbnail image (also optional). The parameters are different, however, but, again, are separated by ampersand.
+
+The parameters are as follows...
+
+* *rel* - specify a REL override, e.g. rel="nofollow"
+* *target* - specify a TARGET override, e.g. target="_blank"
+* *width* - this specifies the width of the thumbnail image
+* *height* - this specifies the height of the thumbnail image
+
+Here's an example, with parameters to specify the REL, TARGET and ALT elements.
+
+`<?php if (function_exists('youtube_thumb_embed')) {youtube_thumb_embed('id','rel=nofollow&target=_blank','','Demo Video');} ?>`
+
+To use the short code method, insert [youtube_thumb]id[/youtube_thumb] into a post or page to create a thumbnail of the relevant video ID which, once clicked, will open up the appropriate YouTube page.
+
+Like the function call above, you can specify a number of parameters. They are the same as detailed above but with the addition of two further parameters...
+
+* *style* - allows you to specify any stylesheet elements that you'd like applied
+* *alt* - specify some "ALT" text for the thumbnail image
+
+For example...
+
+`[youtube_thumb target="_blank" alt="Demo video"]id[/youtube_thumb]`
+
+This overrides the TARGET and ALT elements of the thumbnail.
+
+**Short URL**
+
+You may return a short URL for any YouTube video by way of either a function call or a shortcode.
+
+For a function call, add the following to your code to return a URL - note that this is not written out, but returned as a value. id is the video ID.
+
+`<?php if (function_exists('youtube_short_url')) {youtube_short_url('id');} ?>`
+
+So, an example may be...
+
+`<a href="<?php echo youtube_short_url('id'); ?>"Click here for video</a>`
+
+This will create a link to a video using the short URL standard.
+
+To use the shortcode method simply insert `[youtube_url]id[/youtube_url]` anywhere within a post or page to return a shortened URL. As with other examples, id is the ID of the video.
+
+**Transcripts**
+
+Some YouTube videos include transcripts - this is the speech from the video with timings. These are available in XML format and can, via a function call or shortcode, be displayed in your post/page.
+
+The shortcode `transcript` will display the transcript in your post/page, along with the start time for each line. Simply supply the video ID as a parameter. For example...
+
+`[transcript]id[/transcript]`
+
+If no transcript exists, nothing will be output.
+
+For style purposes, the `SPAN` around the time has a class of `TranscriptTime`, the `SPAN` around the text has a class of `TranscriptText` and the `DIV` around the whole transcript output has a class of `Transcript`.
+
+If you wish to use a PHP function call to get the transcript, then you would use the format...
+
+`get_youtube_transcript(ID)`
+
+In all of these cases, the original XML format has been changed to a readable output. If, though, you'd like to return the original XML format, then you can use the following call...
+
+`get_youtube_transcript_xml(ID)`
+
+**Video Download**
+
+If you wish your users to be able to download a YouTube video or playlist then you can do this via either a shortcode of PHP function call.
+
+The function call is named `get_video_download` or `get_playlist_download` and has one parameter - the video or playlist ID. It will return the download link URL.
+
+For example...
+
+`<a href="<?php get_video_download('id'); ?>">Download the video</a>`
+
+Alternatively, you can use the shortcode `download_video` or `download_playlist`. The content to link is specified between the open and close shortcode tags and there are 3 parameters...
+
+`id` - The ID of the video or playlist. This is required.
+`target` - The target of the link (e.g. `_blank`). This is optional.
+`nofollow` - This should be `Yes` or `No` to specify whether a `nofollow` tag should be added to the link. This is optional and by default it will be included.
+
+For example...
+
+`[download_video id="id" target="_blank"]Download the video[/download_video]`
+
+== Parameters ==
+
+The following parameters can be specified for any embedded YouTube video. Some of these will also work with playlists but, due to a lack of YouTube documentation on the subject, I'm unable to say which they are.
+
+The following work with a standard video/playlist and an EmbedPlus video...
+
+* *embedplus* - yes or no, whether you wish to use EmbedPlus
+* *hd* - yes or no, this determines whether a video defaults to HD quality, if available
+* *width* - the width of the video in pixels
+* *height* - the height of the video in pixels
+* *ratio* - if the height or width is omitted then it will be calculated with this ratio, in the format w:h (width:height) If this ratio is not supplied or is invalid it will be calculated using your default height and width settings. The ratio can only be specified via the shortcode or function call.
+* *fullscreen* - yes or no, this adds a button to the video player, allowing the video to be shown fullscreen
+* *start* - this can be specified if you wish for the video not to start at the beginning. Specify a number of seconds
+
+The following only work with the standard video/playlist embedding...
+
+* *color1* - this is 1 of 2 colors that can be used on the video player. It is in a hex RGB format, and should be 6 letters long.
+* *color2* - this is the second video player colour. Again, this is a hex RGB format.
+* *border* - yes or show, this is whether you wish the border to be shown
+* *autoplay* - yes or no, this specifies whether the video automatically starts to play
+* *loop* - yes or no, this specifies whether the video loops back to the beginning once it completes
+* *cc* - yes or no, this turns on or off closed captions (subtitles)
+* *annotation* - yes or no, this specifies whether you wish video annotations to be shown
+* *egm* - yes or no, this enables or disables the Enhanced Genie Menu
+* *related* - yes or no, this specifies whether you wish to display related videos
+* *info* - yes or no, this determines whether video information is shown
+* *search* - yes or no, determine whether search box should be shown
+* *link* - yes or no, this determines whether the video links back to YouTube
+* *disablekb* - yes or not, this is whether you wish the keyboard controls to be disabled or not
+
+The following are only valid with an EmbedPlus video...
+
+* *stop* - this stops the video at a specific time, given in seconds
+* *react* - yes or no, this specified whether you wish to show the Real-time Reactions button
+* *sweetspot* - yes or no, this will find sweet spots for the next/prev buttons
+
+For further details on these parameters (with the exception of those added by EmbedPlus), please read the [YouTube documentation](http://code.google.com/apis/youtube/player_parameters.html "YouTube Embedded Player Parameters").
+
+== Licence ==
+
+This WordPress plugin is licensed under the [GPLv2 (or later)](http://wordpress.org/about/gpl/ "GNU General Public License").
+
+== Support ==
+
+All of my plugins are supported via [my website](http://www.artiss.co.uk "Artiss.co.uk").
+
+Please feel free to visit the site for plugin updates and development news - either visit the site regularly, follow [my news feed](http://www.artiss.co.uk/feed "RSS News Feed") or [follow me on Twitter](http://www.twitter.com/artiss_tech "Artiss.co.uk on Twitter") (@artiss_tech).
+
+For problems, suggestions or enhancements for this plugin, there is [a dedicated page](http://www.artiss.co.uk/youtube-embed "YouTube Embed") and [a forum](http://www.artiss.co.uk/forum "WordPress Plugins Forum"). The dedicated page will also list any known issues and planned enhancements.
+
+Alternatively, please [contact me directly](http://www.artiss.co.uk/contact "Contact Me"). 
+
+**This plugin, and all support, is supplied for free, but [donations](http://artiss.co.uk/donate "Donate") are always welcome.**
+
+== Reviews & Mentions ==
+
+[New Technology Finds The Most Buzzed-About Parts Of Videos](http://www.socialtimes.com/2011/03/new-technology-finds-the-most-buzzed-about-parts-of-videos-interview/ "New Technology Finds The Most Buzzed-About Parts Of Videos") - SocialTimes.
+
+== Installation ==
+
+1. Upload the entire `youtube-embed` folder to your `wp-content/plugins/` directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Visit the YouTube Embed options screen in your Administration menu and set the default parameters
+4. If using the widget browse to `Appearance->Widgets`, add the widget and configure the options
+
+== Frequently Asked Questions ==
+
+= How do I find the ID of a YouTube video? =
+
+If you play a YouTube video, look at the URL - it will probably look something like this...
+
+`http://www.youtube.com/watch?v=L5Y4qzc_JTg`
+
+The video ID is the list of letters and numbers after `v=`, in this case `L5Y4qzc_JTg`.
+
+= I've installed another plugin which also uses the 'youtube' shortcode. How can I use yours too? =
+
+Jetpack is a good example of a plugin that can do this - install this and leave the "shortcodes" component active and this plugin may no longer appear to work for you.
+
+If the `youtube` shortcode has already been used, an additional code is now available - `youtube_video`. This does the same thing and has the same parameters.
+
+= Which version of PHP does this plugin work with? =
+
+It has been tested and been found valid from PHP 4 upwards.
+
+== Screenshots ==
+
+1. YouTube Embed admin screen, showing demonstration video
+
+== Changelog ==  
+  
+= 1.0 =
+* Initial release
+
+= 1.1 =
+* Updated test video on options screen, as previous one had been removed
+* Resulting XHTML code is better formatted, with comments identifying code location
+* Confirmed WP 3.0 compatibility
+
+= 1.2 =
+* Minor changes to the XHTML code to prevent warnings from certain validators
+
+= 1.3 =
+* Added transparency option so that videos won't cover up layers
+
+= 1.3.1 =
+* New widget option to specify title
+
+= 1.4 =
+* Now supports multiple widgets - widget code completely re-written
+* Support for EmbedPlus added
+* Added option to suppress links back to YouTube
+* Added functions and shortcodes for returning and outputting available transcripts
+* Tidied up code
+
+= 1.4.1 =
+* HD option is available with EmbedPlus - updated the admin and widget screen to reflect this
+
+= 1.4.2 =
+* Fixed bug which meant that people upgrading from previous versions may not be able to display video until they've been to the options screen and re-saved their default options
+* Added keyboard disable option
+
+= 1.5 =
+* Added clone of 'youtube' shortcode, called 'youtube_video'
+* Editor now has YouTube button, which inserts the YouTube shortcode (this can be switched off in the options screen)
+* Added new option to disable keyboard controls
+* Added option to supply a ratio, in case height or width are not supplied - the missing parameter will then be calculated
+* Option to create a download link (for video and playlist) using function call or shortcode
+* You can now change on the options screen which set of parameters the demonstration video uses (i.e. "normal" or EmbedPlus). This allows you to try your options on a different video type without switching to it.
+
+== Upgrade Notice ==
+
+= 1.0 =
+* Initial release
+
+= 1.1 =
+* Update to get the test video on the options screen working again!
+
+= 1.2 =
+* Update to ensure no warnings are reported by XHTML validators
+
+= 1.3 =
+* Update if you find that the videos are covering up layers
+
+= 1.3.1 =
+* Update if you wish to change the widget heading
+
+= 1.4 =
+* Update to add EmbedPlus, multi-widgets and transcript output capabilities
+
+= 1.4.1 =
+* Upgrade to make a small correction to the parameter lists
+
+= 1.4.2 =
+* Upgrade is you upgraded to version 1.4 or 1.4.1 from a previous version, to fix an important bug
+
+= 1.5 =
+* Upgrade to add a number of new options including video size ratios, disabling keyboard controls, an editor button and different demonstration video options on the admin screen
