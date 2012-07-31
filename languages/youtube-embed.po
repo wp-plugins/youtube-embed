@@ -1,0 +1,1170 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Artiss YouTube Embed\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-27 14:33-0000\n"
+"PO-Revision-Date: 2012-07-27 14:33-0000\n"
+"Last-Translator: David Artiss <david.artiss@artiss.co.uk>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/artiss-plugin-ads.php:45
+#: includes/aye-admin-config.php:56
+msgid "Donate"
+msgstr ""
+
+#: includes/artiss-plugin-ads.php:46
+msgid "If you like this plugin and appreciate the effort being put into it, <a href=\"http://www.artiss.co.uk/donate\">please consider donating</a>."
+msgstr ""
+
+#: includes/artiss-plugin-ads.php:47
+msgid "Follow Me"
+msgstr ""
+
+#: includes/artiss-plugin-ads.php:48
+msgid "Please stay in touch with the latest news via one of the following social streams..."
+msgstr ""
+
+#: includes/artiss-plugin-ads.php:50
+msgid "Follow Artiss.co.uk on Twitter"
+msgstr ""
+
+#: includes/artiss-plugin-ads.php:51
+msgid "Follow Artiss.co.uk on Facebook"
+msgstr ""
+
+#: includes/artiss-plugin-ads.php:52
+msgid "Follow Artiss.co.uk on Google+"
+msgstr ""
+
+#: includes/artiss-plugin-ads.php:53
+msgid "Follow Artiss.co.uk on RSS feed"
+msgstr ""
+
+#: includes/aye-add-to-admin-bar.php:36
+#: includes/aye-add-to-admin-bar.php:73
+msgid "YouTube Embed"
+msgstr ""
+
+#: includes/aye-add-to-admin-bar.php:78
+#: includes/aye-admin-config.php:88
+msgid "Options"
+msgstr ""
+
+#: includes/aye-add-to-admin-bar.php:85
+#: includes/aye-admin-config.php:98
+msgid "Profiles"
+msgstr ""
+
+#: includes/aye-add-to-admin-bar.php:92
+#: includes/aye-admin-config.php:108
+msgid "Lists"
+msgstr ""
+
+#: includes/aye-add-to-admin-bar.php:99
+#: includes/aye-admin-config.php:117
+msgid "README"
+msgstr ""
+
+#: includes/aye-admin-config.php:29
+msgid "Settings"
+msgstr ""
+
+#: includes/aye-admin-config.php:54
+msgid "Support"
+msgstr ""
+
+#: includes/aye-admin-config.php:82
+msgid "Artiss YouTube Embed Settings"
+msgstr ""
+
+#: includes/aye-admin-config.php:82
+msgid "YouTube"
+msgstr ""
+
+#: includes/aye-admin-config.php:88
+msgid "Artiss YouTube Embed Options"
+msgstr ""
+
+#: includes/aye-admin-config.php:98
+msgid "Artiss YouTube Embed Profiles"
+msgstr ""
+
+#: includes/aye-admin-config.php:108
+msgid "Artiss YouTube Embed Lists"
+msgstr ""
+
+#: includes/aye-admin-config.php:117
+#: includes/aye-display-readme.php:14
+msgid "Artiss YouTube Embed README"
+msgstr ""
+
+#: includes/aye-admin-config.php:124
+#: includes/aye-display-about.php:14
+msgid "About Artiss YouTube Embed"
+msgstr ""
+
+#: includes/aye-admin-config.php:124
+msgid "About"
+msgstr ""
+
+#: includes/aye-admin-config.php:246
+#: includes/aye-admin-config.php:288
+#: includes/aye-admin-config.php:331
+#: includes/aye-admin-config.php:373
+msgid "Help"
+msgstr ""
+
+#: includes/aye-admin-config.php:261
+msgid "This screen allows you to select non-specific options for the Artiss YouTube Embed plugin. For the default embedding settings, please select the <a href=\"admin.php?page=aye-profile-options\">Profiles</a> administration option."
+msgstr ""
+
+#: includes/aye-admin-config.php:262
+#: includes/aye-admin-config.php:304
+#: includes/aye-admin-config.php:347
+msgid "Remember to click the Save Settings button at the bottom of the screen for new settings to take effect."
+msgstr ""
+
+#: includes/aye-admin-config.php:263
+#: includes/aye-admin-config.php:305
+#: includes/aye-admin-config.php:348
+#: includes/aye-admin-config.php:389
+msgid "For more information:"
+msgstr ""
+
+#: includes/aye-admin-config.php:264
+#: includes/aye-admin-config.php:306
+#: includes/aye-admin-config.php:349
+#: includes/aye-admin-config.php:390
+msgid "Artiss YouTube Embed Plugin Documentation"
+msgstr ""
+
+#: includes/aye-admin-config.php:265
+#: includes/aye-admin-config.php:307
+#: includes/aye-admin-config.php:350
+#: includes/aye-admin-config.php:391
+msgid "YouTube Player Documentation"
+msgstr ""
+
+#: includes/aye-admin-config.php:266
+#: includes/aye-admin-config.php:309
+#: includes/aye-admin-config.php:351
+#: includes/aye-admin-config.php:392
+#: includes/aye-display-about.php:48
+msgid "This plugin, and all support, is supplied for free, but <a title=\"Donate\" href=\"http://artiss.co.uk/donate\" target=\"_blank\">donations</a> are always welcome."
+msgstr ""
+
+#: includes/aye-admin-config.php:303
+msgid "This screen allows you to set the options for the default and additional profiles. If you don't specify a specific parameter when displaying your YouTube video then the default profile option will be used instead. Additional profiles, which you may name, can be used as well and used as required."
+msgstr ""
+
+#: includes/aye-admin-config.php:308
+msgid "EmbedPlus website"
+msgstr ""
+
+#: includes/aye-admin-config.php:346
+msgid "This screen allows you to create lists of YouTube videos, which may be named. These lists can then be used in preference to a single video ID."
+msgstr ""
+
+#: includes/aye-admin-config.php:388
+msgid "This screen provides useful information about this plugin along with methods of support."
+msgstr ""
+
+#: includes/aye-admin-config.php:450
+msgid "Welcome to Artiss YouTube Embed"
+msgstr ""
+
+#: includes/aye-admin-config.php:451
+msgid "Thank you for installing this plugin."
+msgstr ""
+
+#: includes/aye-admin-config.php:452
+msgid "These new menu options will allow you to configure your videos to just how you want them and provide links for help and support."
+msgstr ""
+
+#: includes/aye-admin-config.php:453
+msgid "Even if you do nothing else, please visit the Profiles option to check your default video values."
+msgstr ""
+
+#: includes/aye-deprecated.php:55
+msgid "This function does not support playlists"
+msgstr ""
+
+#: includes/aye-display-about.php:24
+#, php-format
+msgid "You are using Artiss YouTube Embed version %s. It was written by David Artiss."
+msgstr ""
+
+#: includes/aye-display-about.php:26
+msgid "Powered by YouTube"
+msgstr ""
+
+#: includes/aye-display-about.php:30
+msgid "Copyrights"
+msgstr ""
+
+#: includes/aye-display-about.php:32
+msgid "YouTube, and all associated logos, is the copyright of Google Inc."
+msgstr ""
+
+#: includes/aye-display-about.php:34
+msgid "EmbedPlus is copyright. Read the <a href=\"http://embedplus.com/terms.aspx\" target=\"_blank\">Terms &amp; Conditions of Use</a>."
+msgstr ""
+
+#: includes/aye-display-about.php:36
+msgid "Acknowledgements"
+msgstr ""
+
+#: includes/aye-display-about.php:38
+msgid "Images have been compressed with <a href=\"http://www.smushit.com/ysmush.it/\">Smush.it</a>."
+msgstr ""
+
+#: includes/aye-display-about.php:40
+msgid "JavaScript has been compressed with <a href=\"http://javascriptcompressor.com/\">JavaScript Compressor</a>."
+msgstr ""
+
+#: includes/aye-display-about.php:42
+msgid "YouTube icons are courtesy of <a href=\"http://www.youtube.com/t/creators_downloads\">YouTube</a>. Other icons are by <a href=\"http://p.yusukekamiyamane.com/\">Yusuke Kamiyamane</a>."
+msgstr ""
+
+#: includes/aye-display-about.php:44
+msgid "Support Information"
+msgstr ""
+
+#: includes/aye-display-about.php:46
+msgid "Useful support information and links can be found by clicking on the Help tab at the top of each of the Artiss YouTube Embed administration screens."
+msgstr ""
+
+#: includes/aye-display-about.php:50
+msgid "Stay in Touch"
+msgstr ""
+
+#: includes/aye-display-about.php:52
+msgid "<a href=\"http://www.artiss.co.uk/wp-plugins\">See the full list</a> of Artiss plugins, including beta releases."
+msgstr ""
+
+#: includes/aye-display-about.php:54
+msgid "<a href=\"http://www.twitter.com/artiss_tech\">Follow Artiss.co.uk</a> on Twitter."
+msgstr ""
+
+#: includes/aye-display-about.php:56
+msgid "<a href=\"http://www.artiss.co.uk/feed\">Subscribe</a> to the Artiss.co.uk news feed."
+msgstr ""
+
+#: includes/aye-function-calls.php:162
+#: includes/aye-function-calls.php:223
+#: includes/aye-generate-download-code.php:34
+#: includes/aye-generate-embed-code.php:116
+#: includes/aye-generate-shorturl-code.php:34
+#: includes/aye-generate-thumbnail-code.php:37
+#: includes/aye-generate-transcript-code.php:38
+#, php-format
+msgid "The YouTube ID of %s is invalid."
+msgstr ""
+
+#: includes/aye-function-calls.php:173
+#, php-format
+msgid "Could not fetch the transcript file %s."
+msgstr ""
+
+#: includes/aye-generate-download-code.php:23
+msgid "No YouTube ID was found."
+msgstr ""
+
+#: includes/aye-generate-embed-code.php:65
+msgid "No video/playlist ID has been supplied"
+msgstr ""
+
+#: includes/aye-generate-embed-code.php:183
+msgid "A video list cannot be viewed within this feed - please view the original content"
+msgstr ""
+
+#: includes/aye-generate-embed-code.php:187
+msgid "Click here to view the video on YouTube"
+msgstr ""
+
+#: includes/aye-generate-shorturl-code.php:22
+msgid "No video ID has been supplied"
+msgstr ""
+
+#: includes/aye-generate-thumbnail-code.php:49
+#, php-format
+msgid "YouTube Video %s"
+msgstr ""
+
+#: includes/aye-generate-widgets.php:25
+msgid "Embed YouTube Widget."
+msgstr ""
+
+#: includes/aye-options-general.php:58
+#: includes/aye-options-lists.php:26
+msgid "Settings Saved."
+msgstr ""
+
+#: includes/aye-options-general.php:75
+msgid "Cache cleared."
+msgstr ""
+
+#: includes/aye-options-general.php:92
+msgid "These are the general settings for Artiss YouTube Embed. Please select <a href=\"admin.php?page=aye-profile-options\">Profiles</a> for default embedding settings."
+msgstr ""
+
+#: includes/aye-options-general.php:99
+msgid "Remove Adverts"
+msgstr ""
+
+#: includes/aye-options-general.php:100
+msgid "If you've <a href=\"http://www.artiss.co.uk/donate\">donated</a>, tick here to remove the adverts."
+msgstr ""
+
+#: includes/aye-options-general.php:105
+msgid "Embedding"
+msgstr ""
+
+#: includes/aye-options-general.php:109
+msgid "Add Metadata"
+msgstr ""
+
+#: includes/aye-options-general.php:110
+msgid "Allow rich metadata to be added to code. <a href=\"http://www.artiss.co.uk/artiss-youtube-embed/further-help#ye-metadata\">Learn more</a>"
+msgstr ""
+
+#: includes/aye-options-general.php:114
+msgid "Comment Embedding"
+msgstr ""
+
+#: includes/aye-options-general.php:115
+msgid "Allow YouTube URLs in comments - will display as embedded videos. <a href=\"http://www.artiss.co.uk/artiss-youtube-embed/further-help#ye-comments\">Learn more</a>"
+msgstr ""
+
+#: includes/aye-options-general.php:119
+#: includes/aye-options-general.php:155
+#: includes/aye-options-general.php:167
+#: includes/aye-options-general.php:188
+msgid "Profile to use"
+msgstr ""
+
+#: includes/aye-options-general.php:126
+msgid "Feed"
+msgstr ""
+
+#: includes/aye-options-general.php:128
+msgid "Text link"
+msgstr ""
+
+#: includes/aye-options-general.php:129
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/aye-options-general.php:130
+msgid "Thumbnail &amp; Text Link"
+msgstr ""
+
+#: includes/aye-options-general.php:131
+msgid "Videos cannot be embedded in feeds. Select how you wish them to be shown instead"
+msgstr ""
+
+#: includes/aye-options-general.php:135
+msgid "Thumbnail to use"
+msgstr ""
+
+#: includes/aye-options-general.php:137
+#: includes/aye-shared-functions.php:425
+msgid "Default"
+msgstr ""
+
+#: includes/aye-options-general.php:138
+msgid "Default (HQ)"
+msgstr ""
+
+#: includes/aye-options-general.php:139
+msgid "Start"
+msgstr ""
+
+#: includes/aye-options-general.php:140
+msgid "Middle"
+msgstr ""
+
+#: includes/aye-options-general.php:141
+msgid "End"
+msgstr ""
+
+#: includes/aye-options-general.php:142
+msgid "Which thumbnail to use"
+msgstr ""
+
+#: includes/aye-options-general.php:146
+msgid "Alternative Shortcodes"
+msgstr ""
+
+#: includes/aye-options-general.php:146
+msgid "Specify up to 2 alternative shortcodes to compliment the standard <code>youtube</code> shortcode. <strong>NB: These should be specified without the surrounding square brackets.</strong>"
+msgstr ""
+
+#: includes/aye-options-general.php:150
+msgid "Alternative Shortcode 1"
+msgstr ""
+
+#: includes/aye-options-general.php:162
+msgid "Alternative Shortcode 2"
+msgstr ""
+
+#: includes/aye-options-general.php:174
+msgid "Migration"
+msgstr ""
+
+#: includes/aye-options-general.php:174
+msgid "Switch on compatibility with other embedding plugins. For more details on migrating from another plugin, please <a href=\"http://www.artiss.co.uk/artiss-youtube-embed/compatibility\">click here</a>."
+msgstr ""
+
+#: includes/aye-options-general.php:178
+msgid "Bracket Embedding"
+msgstr ""
+
+#: includes/aye-options-general.php:179
+msgid "Allow embedding using URLs within brackets. Activating impacts performance"
+msgstr ""
+
+#: includes/aye-options-general.php:183
+msgid "Alternative Embedding"
+msgstr ""
+
+#: includes/aye-options-general.php:184
+msgid "Allow all other types of embedding. Activating impacts performance"
+msgstr ""
+
+#: includes/aye-options-general.php:191
+msgid "For above 2 options"
+msgstr ""
+
+#: includes/aye-options-general.php:195
+msgid "Admin Options"
+msgstr ""
+
+#: includes/aye-options-general.php:199
+msgid "Show YouTube Button"
+msgstr ""
+
+#: includes/aye-options-general.php:200
+msgid "Show the YouTube button on the post editor"
+msgstr ""
+
+#: includes/aye-options-general.php:204
+msgid "Add to Admin Bar"
+msgstr ""
+
+#: includes/aye-options-general.php:205
+msgid "Add link to options screen to Admin Bar"
+msgstr ""
+
+#: includes/aye-options-general.php:209
+msgid "Profile &amp; List Sizes"
+msgstr ""
+
+#: includes/aye-options-general.php:213
+msgid "Number of Profiles"
+msgstr ""
+
+#: includes/aye-options-general.php:214
+msgid "Maximum number of profiles"
+msgstr ""
+
+#: includes/aye-options-general.php:218
+msgid "Number of Lists"
+msgstr ""
+
+#: includes/aye-options-general.php:219
+msgid "Maximum number of lists"
+msgstr ""
+
+#: includes/aye-options-general.php:223
+msgid "Performance"
+msgstr ""
+
+#: includes/aye-options-general.php:227
+msgid "Embed Cache"
+msgstr ""
+
+#: includes/aye-options-general.php:228
+msgid "How many hours to retain embed output. 0 to switch off"
+msgstr ""
+
+#: includes/aye-options-general.php:232
+msgid "Video Information Cache"
+msgstr ""
+
+#: includes/aye-options-general.php:233
+msgid "How many hours to retain video information, including it's validity.  0 to switch off"
+msgstr ""
+
+#: includes/aye-options-general.php:237
+msgid "Transcript Cache"
+msgstr ""
+
+#: includes/aye-options-general.php:238
+msgid "How many hours to store transcripts for in cache. 0 to switch off"
+msgstr ""
+
+#: includes/aye-options-general.php:247
+msgid "Clear Cache"
+msgstr ""
+
+#: includes/aye-options-general.php:248
+#, php-format
+msgid "Select this option to remove all YouTube Embed cache. You currently have %d cached video(s)"
+msgstr ""
+
+#: includes/aye-options-general.php:252
+msgid "YouTube API"
+msgstr ""
+
+#: includes/aye-options-general.php:254
+msgid "The YouTube API is used to validate video IDs and to determine if it is a video or playlist."
+msgstr ""
+
+#: includes/aye-options-general.php:258
+msgid "API State"
+msgstr ""
+
+#: includes/aye-options-general.php:260
+msgid "API should not be used"
+msgstr ""
+
+#: includes/aye-options-general.php:261
+msgid "HTTP API used and errors are reported"
+msgstr ""
+
+#: includes/aye-options-general.php:262
+msgid "HTTPS API used and errors are reported"
+msgstr ""
+
+#: includes/aye-options-general.php:263
+msgid "HTTP API used and no errors are reported"
+msgstr ""
+
+#: includes/aye-options-general.php:264
+msgid "HTTPS API used and no errors are reported"
+msgstr ""
+
+#: includes/aye-options-general.php:269
+msgid "Error Reporting"
+msgstr ""
+
+#: includes/aye-options-general.php:271
+msgid "Playback errors are within the XHTML source code as comments - parameter errors and other types are displayed on the post output."
+msgstr ""
+
+#: includes/aye-options-general.php:274
+msgid "Video Playback Error Message"
+msgstr ""
+
+#: includes/aye-options-general.php:275
+msgid "This is the message that will be shown on the post"
+msgstr ""
+
+#: includes/aye-options-general.php:278
+msgid "Security"
+msgstr ""
+
+#: includes/aye-options-general.php:281
+msgid "Privacy-Enhanced Mode"
+msgstr ""
+
+#: includes/aye-options-general.php:282
+msgid "When on, the player on this site will not store cookies"
+msgstr ""
+
+#: includes/aye-options-general.php:285
+msgid "Compatability"
+msgstr ""
+
+#: includes/aye-options-general.php:288
+msgid "Allow Frame Border on IFRAME"
+msgstr ""
+
+#: includes/aye-options-general.php:289
+msgid "FRAMEBORDER is not HTML5 compliant"
+msgstr ""
+
+#: includes/aye-options-general.php:294
+#: includes/aye-options-lists.php:123
+#: includes/aye-options-profiles.php:345
+msgid "Save Settings"
+msgstr ""
+
+#: includes/aye-options-lists.php:31
+msgid "All fields must be completed."
+msgstr ""
+
+#: includes/aye-options-lists.php:53
+msgid "Errors were found with your video list. See the list below for details."
+msgstr ""
+
+#: includes/aye-options-lists.php:92
+msgid "List"
+msgstr ""
+
+#: includes/aye-options-lists.php:102
+msgid "Change list"
+msgstr ""
+
+#: includes/aye-options-lists.php:105
+msgid "These are the options for list "
+msgstr ""
+
+#: includes/aye-options-lists.php:105
+msgid "Update the name, if required, and specify a list of YouTube video IDs. Use the drop-down on the right hand side to swap between lists."
+msgstr ""
+
+#: includes/aye-options-lists.php:110
+msgid "List name"
+msgstr ""
+
+#: includes/aye-options-lists.php:112
+msgid "The name you wish to give this list"
+msgstr ""
+
+#: includes/aye-options-lists.php:116
+msgid "Video IDs (one per line)"
+msgstr ""
+
+#: includes/aye-options-lists.php:134
+#: includes/aye-options-widgets.php:25
+msgid "Video ID"
+msgstr ""
+
+#: includes/aye-options-lists.php:134
+#: includes/aye-options-widgets.php:19
+msgid "Video Title"
+msgstr ""
+
+#: includes/aye-options-lists.php:134
+msgid "Status"
+msgstr ""
+
+#: includes/aye-options-lists.php:150
+msgid "This is a playlist"
+msgstr ""
+
+#: includes/aye-options-lists.php:154
+msgid "Invalid video ID"
+msgstr ""
+
+#: includes/aye-options-lists.php:158
+msgid "YouTube API error"
+msgstr ""
+
+#: includes/aye-options-lists.php:161
+msgid "Valid video"
+msgstr ""
+
+#: includes/aye-options-lists.php:179
+msgid "The video ID is valid"
+msgstr ""
+
+#: includes/aye-options-lists.php:182
+msgid "The video ID is invalid"
+msgstr ""
+
+#: includes/aye-options-profiles.php:90
+msgid " Profile Saved."
+msgstr ""
+
+#: includes/aye-options-profiles.php:115
+msgid "Change profile"
+msgstr ""
+
+#: includes/aye-options-profiles.php:120
+msgid "These are the options for the default profile."
+msgstr ""
+
+#: includes/aye-options-profiles.php:122
+#, php-format
+msgid "These are the options for profile %s."
+msgstr ""
+
+#: includes/aye-options-profiles.php:124
+msgid "Use the drop-down on the right hand side to swap between profiles."
+msgstr ""
+
+#: includes/aye-options-profiles.php:130
+msgid "Profile name"
+msgstr ""
+
+#: includes/aye-options-profiles.php:132
+msgid "The name you wish to give this profile"
+msgstr ""
+
+#: includes/aye-options-profiles.php:136
+msgid "Video Embed Type"
+msgstr ""
+
+#: includes/aye-options-profiles.php:137
+msgid "The type of player to use for videos."
+msgstr ""
+
+#: includes/aye-options-profiles.php:138
+#: includes/aye-options-profiles.php:148
+#: includes/aye-options-profiles.php:323
+#: includes/aye-options-widgets.php:95
+msgid "IFRAME"
+msgstr ""
+
+#: includes/aye-options-profiles.php:138
+msgid "Uses AS3 Flash player, if Flash is available. Alternatively, uses HTML5 player. This is the current YouTube default."
+msgstr ""
+
+#: includes/aye-options-profiles.php:139
+#: includes/aye-options-profiles.php:149
+#: includes/aye-options-profiles.php:324
+#: includes/aye-options-widgets.php:97
+msgid "OBJECT"
+msgstr ""
+
+#: includes/aye-options-profiles.php:139
+msgid "Use the AS3 Flash player."
+msgstr ""
+
+#: includes/aye-options-profiles.php:140
+#: includes/aye-options-widgets.php:99
+msgid "Chromeless"
+msgstr ""
+
+#: includes/aye-options-profiles.php:140
+msgid "Use the <a href=\"http://www.artiss.co.uk/artiss-youtube-embed/further-help#ye-chromeless\">Chromeless</a> version of the AS3 Flash Player."
+msgstr ""
+
+#: includes/aye-options-profiles.php:141
+#: includes/aye-options-profiles.php:361
+#: includes/aye-options-widgets.php:101
+msgid "EmbedPlus"
+msgstr ""
+
+#: includes/aye-options-profiles.php:141
+msgid "Use <a href=\"http://www.artiss.co.uk/artiss-youtube-embed/further-help#ye-embedplus\">EmbedPlus</a>, if Flash is available."
+msgstr ""
+
+#: includes/aye-options-profiles.php:146
+msgid "Playlist Embed Type"
+msgstr ""
+
+#: includes/aye-options-profiles.php:147
+msgid "The type of player to use when showing playlists."
+msgstr ""
+
+#: includes/aye-options-profiles.php:154
+msgid "Options For All Player Types"
+msgstr ""
+
+#: includes/aye-options-profiles.php:158
+#: includes/aye-options-widgets.php:55
+msgid "Template"
+msgstr ""
+
+#: includes/aye-options-profiles.php:159
+msgid "Wrapper for video output. Must include <code>%video%</code> tag to show video position"
+msgstr ""
+
+#: includes/aye-options-profiles.php:163
+#: includes/aye-options-widgets.php:61
+msgid "Style"
+msgstr ""
+
+#: includes/aye-options-profiles.php:164
+msgid "CSS elements to apply to video"
+msgstr ""
+
+#: includes/aye-options-profiles.php:170
+msgid "Video size"
+msgstr ""
+
+#: includes/aye-options-profiles.php:171
+msgid "The width x height of the video, in pixels"
+msgstr ""
+
+#: includes/aye-options-profiles.php:175
+msgid "Default Sizes"
+msgstr ""
+
+#: includes/aye-options-profiles.php:177
+msgid "Use above sizes"
+msgstr ""
+
+#: includes/aye-options-profiles.php:183
+msgid "Select one of these default sizes to override the above video sizes"
+msgstr ""
+
+#: includes/aye-options-profiles.php:187
+#: includes/aye-options-widgets.php:79
+msgid "Dynamically Resize"
+msgstr ""
+
+#: includes/aye-options-profiles.php:188
+msgid "Show full width and resize with the browser"
+msgstr ""
+
+#: includes/aye-options-profiles.php:192
+msgid "Set Maximum Size"
+msgstr ""
+
+#: includes/aye-options-profiles.php:193
+msgid "Use above width to define maximum size"
+msgstr ""
+
+#: includes/aye-options-profiles.php:200
+msgid "Audio Only"
+msgstr ""
+
+#: includes/aye-options-profiles.php:201
+msgid "Only show the toolbar for audio only playback"
+msgstr ""
+
+#: includes/aye-options-profiles.php:205
+#: includes/aye-options-widgets.php:107
+msgid "Autoplay"
+msgstr ""
+
+#: includes/aye-options-profiles.php:206
+msgid "The video will start playing when the player loads"
+msgstr ""
+
+#: includes/aye-options-profiles.php:211
+msgid "Options Not Supported by EmbedPlus"
+msgstr ""
+
+#: includes/aye-options-profiles.php:216
+msgid "Auto hide"
+msgstr ""
+
+#: includes/aye-options-profiles.php:218
+msgid "Controls &amp; progress bar remain visible"
+msgstr ""
+
+#: includes/aye-options-profiles.php:219
+msgid "Controls &amp; progress bar fade out"
+msgstr ""
+
+#: includes/aye-options-profiles.php:220
+msgid "Progress bar fades"
+msgstr ""
+
+#: includes/aye-options-profiles.php:221
+msgid "Video controls will automatically hide after a video begins playing"
+msgstr ""
+
+#: includes/aye-options-profiles.php:225
+msgid "Controls"
+msgstr ""
+
+#: includes/aye-options-profiles.php:226
+msgid "Video player controls will display"
+msgstr ""
+
+#: includes/aye-options-profiles.php:231
+msgid "Use SSL? <a href=\"http://www.google.com/support/youtube/bin/answer.py?answer=171780&expand=UseHTTPS#HTTPS\">Read more</a>"
+msgstr ""
+
+#: includes/aye-options-profiles.php:235
+#: includes/aye-options-widgets.php:153
+msgid "Loop Video"
+msgstr ""
+
+#: includes/aye-options-profiles.php:236
+msgid "Play the initial video again and again. In the case of a playlist, this will play the entire playlist and then start again at the first video"
+msgstr ""
+
+#: includes/aye-options-profiles.php:240
+msgid "Information"
+msgstr ""
+
+#: includes/aye-options-profiles.php:241
+msgid "Display the video title and uploader before the video starts. If displaying a playlist this will show video thumbnails"
+msgstr ""
+
+#: includes/aye-options-profiles.php:245
+msgid "Related Videos"
+msgstr ""
+
+#: includes/aye-options-profiles.php:246
+msgid "Load related videos once playback starts. Also toggles the search option."
+msgstr ""
+
+#: includes/aye-options-profiles.php:250
+msgid "Theme"
+msgstr ""
+
+#: includes/aye-options-profiles.php:252
+msgid "Dark"
+msgstr ""
+
+#: includes/aye-options-profiles.php:253
+msgid "Light"
+msgstr ""
+
+#: includes/aye-options-profiles.php:254
+msgid "Display player controls within a dark or light control bar"
+msgstr ""
+
+#: includes/aye-options-profiles.php:258
+msgid "Progress Bar Colour"
+msgstr ""
+
+#: includes/aye-options-profiles.php:260
+msgid "Red"
+msgstr ""
+
+#: includes/aye-options-profiles.php:261
+msgid "White (desaturated)"
+msgstr ""
+
+#: includes/aye-options-profiles.php:262
+msgid "The colour that will be used in the player's video progress bar to highlight the amount of the video that's already been seen"
+msgstr ""
+
+#: includes/aye-options-profiles.php:267
+msgid "Options for AS3 Player"
+msgstr ""
+
+#: includes/aye-options-profiles.php:268
+msgid "The following options are not supported if using EmbedPlus or if the IFRAME player uses HTML5."
+msgstr ""
+
+#: includes/aye-options-profiles.php:272
+msgid "Annotations"
+msgstr ""
+
+#: includes/aye-options-profiles.php:273
+msgid "Video annotations are shown by default"
+msgstr ""
+
+#: includes/aye-options-profiles.php:277
+msgid "Closed Captions"
+msgstr ""
+
+#: includes/aye-options-profiles.php:278
+msgid "Show closed captions (subtitles) by default, even if the user has turned captions off"
+msgstr ""
+
+#: includes/aye-options-profiles.php:282
+msgid "Disable Keyboard"
+msgstr ""
+
+#: includes/aye-options-profiles.php:283
+msgid "Disable the player keyboard controls"
+msgstr ""
+
+#: includes/aye-options-profiles.php:287
+msgid "Fullscreen"
+msgstr ""
+
+#: includes/aye-options-profiles.php:288
+msgid "A button will allow the viewer to watch the video fullscreen"
+msgstr ""
+
+#: includes/aye-options-profiles.php:292
+msgid "Link to YouTube"
+msgstr ""
+
+#: includes/aye-options-profiles.php:293
+msgid "Video links back to YouTube when clicked"
+msgstr ""
+
+#: includes/aye-options-profiles.php:297
+msgid "Modest Branding"
+msgstr ""
+
+#: includes/aye-options-profiles.php:298
+msgid "Reduce branding on video."
+msgstr ""
+
+#: includes/aye-options-profiles.php:303
+msgid "Options Not Supported by HTML5 Player"
+msgstr ""
+
+#: includes/aye-options-profiles.php:307
+msgid "Window Mode"
+msgstr ""
+
+#: includes/aye-options-profiles.php:309
+msgid "Opaque"
+msgstr ""
+
+#: includes/aye-options-profiles.php:310
+msgid "Transparent"
+msgstr ""
+
+#: includes/aye-options-profiles.php:311
+msgid "Window"
+msgstr ""
+
+#: includes/aye-options-profiles.php:312
+msgid "Sets the Window Mode property of the Flash movie for transparency, layering, and positioning in the browser. <a href=\"http://www.communitymx.com/content/article.cfm?cid=e5141\">Learn more</a>."
+msgstr ""
+
+#: includes/aye-options-profiles.php:317
+msgid "Options Only Supported By EmbedPlus"
+msgstr ""
+
+#: includes/aye-options-profiles.php:317
+msgid "Learn more about EmbedPlus"
+msgstr ""
+
+#: includes/aye-options-profiles.php:321
+msgid "Fallback Embed Type"
+msgstr ""
+
+#: includes/aye-options-profiles.php:322
+msgid "The type of player to use if Flash is not available and EmbedPlus cannot be used."
+msgstr ""
+
+#: includes/aye-options-profiles.php:328
+msgid "Play HD"
+msgstr ""
+
+#: includes/aye-options-profiles.php:329
+msgid "Play the video in HD if possible"
+msgstr ""
+
+#: includes/aye-options-profiles.php:333
+msgid "Real-time Reactions"
+msgstr ""
+
+#: includes/aye-options-profiles.php:334
+msgid "Show the Real-time Reactions button"
+msgstr ""
+
+#: includes/aye-options-profiles.php:338
+msgid "Sweet Spots"
+msgstr ""
+
+#: includes/aye-options-profiles.php:339
+msgid "Find sweet spots for the next and previous buttons"
+msgstr ""
+
+#: includes/aye-options-profiles.php:349
+msgid "Would you like the video below to be yours? <a href=\"http://www.artiss.co.uk/contact\">Contact me</a> for sponsorship information."
+msgstr ""
+
+#: includes/aye-options-profiles.php:356
+msgid "YouTube Video Sample"
+msgstr ""
+
+#: includes/aye-options-profiles.php:357
+msgid "This uses the above settings, once they have been saved. <b>Would you like this to be your video? If so, <a href=\"http://www.artiss.co.uk/contact\">contact me</a>!</b>"
+msgstr ""
+
+#: includes/aye-options-profiles.php:358
+msgid "Use the drop-down below to change which parameters the video uses - press the Change Video button to update it."
+msgstr ""
+
+#: includes/aye-options-profiles.php:360
+msgid "Standard"
+msgstr ""
+
+#: includes/aye-options-profiles.php:362
+msgid "3D"
+msgstr ""
+
+#: includes/aye-options-profiles.php:363
+msgid "Playlist"
+msgstr ""
+
+#: includes/aye-options-profiles.php:366
+msgid "Change video"
+msgstr ""
+
+#: includes/aye-options-widgets.php:13
+msgid "Widget Title"
+msgstr ""
+
+#: includes/aye-options-widgets.php:33
+msgid "ID Type"
+msgstr ""
+
+#: includes/aye-options-widgets.php:35
+msgid "Video or Playlist"
+msgstr ""
+
+#: includes/aye-options-widgets.php:37
+msgid "Search"
+msgstr ""
+
+#: includes/aye-options-widgets.php:39
+msgid "User"
+msgstr ""
+
+#: includes/aye-options-widgets.php:47
+#: includes/aye-shared-functions.php:432
+msgid "Profile"
+msgstr ""
+
+#: includes/aye-options-widgets.php:67
+msgid "Size"
+msgstr ""
+
+#: includes/aye-options-widgets.php:81
+#: includes/aye-options-widgets.php:93
+#: includes/aye-options-widgets.php:109
+#: includes/aye-options-widgets.php:141
+#: includes/aye-options-widgets.php:155
+msgid "Profile default"
+msgstr ""
+
+#: includes/aye-options-widgets.php:83
+#: includes/aye-options-widgets.php:111
+#: includes/aye-options-widgets.php:157
+msgid "No"
+msgstr ""
+
+#: includes/aye-options-widgets.php:85
+#: includes/aye-options-widgets.php:113
+#: includes/aye-options-widgets.php:159
+msgid "Yes"
+msgstr ""
+
+#: includes/aye-options-widgets.php:91
+msgid "Embed Type"
+msgstr ""
+
+#: includes/aye-options-widgets.php:119
+msgid "Start (seconds)"
+msgstr ""
+
+#: includes/aye-options-widgets.php:125
+msgid "Stop (seconds)"
+msgstr ""
+
+#: includes/aye-options-widgets.php:130
+msgid "Non-EmbedPlus Options"
+msgstr ""
+
+#: includes/aye-options-widgets.php:139
+msgid "List Playback"
+msgstr ""
+
+#: includes/aye-options-widgets.php:143
+msgid "Play each video in order"
+msgstr ""
+
+#: includes/aye-options-widgets.php:145
+msgid "Play videos randomly"
+msgstr ""
+
+#: includes/aye-options-widgets.php:147
+msgid "Play one random video"
+msgstr ""
+
+#: includes/aye-set-defaults.php:69
+msgid "The video cannot be shown at the moment. Please try again later."
+msgstr ""
+
+#: includes/aye-shared-functions.php:184
+#, php-format
+msgid "An error occurred accessing the YouTube API for video ID %s - %s"
+msgstr ""
+
