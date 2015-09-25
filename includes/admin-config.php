@@ -52,6 +52,7 @@ function vye_set_plugin_meta( $links, $file ) {
 	if ( strpos( $file, 'youtube-embed.php' ) !== false ) {
 
 		$links = array_merge( $links, array( '<a href="https://wordpress.org/support/plugin/youtube-embed">' . __( 'Support', 'youtube-embed' ) . '</a>' ) );
+		$links = array_merge( $links, array( '<a href="http://www.artiss.co.uk/donate">' . __( 'Donate', 'youtube-embed' ) . '</a>' ) );
 
 	}
 
@@ -79,7 +80,7 @@ function vye_menu_initialise() {
 	$menu_access = $options[ 'menu_access' ];
 
 	// Add main admin option
-	
+
 	$menu_icon = 'dashicons-video-alt3';
 
 	add_menu_page( __( 'About YouTube Embed', 'youtube-embed' ), __( 'YouTube', 'youtube-embed' ), $menu_access, 'general-options', 'vye_general_options', $menu_icon, 12 );

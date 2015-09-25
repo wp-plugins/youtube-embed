@@ -9,13 +9,16 @@
 */
 ?>
 
-<?php $demo_video = 'JAUoeqvedMo'; ?>
+<?php $demo_video = 'ngElkyQ6Rhs'; ?>
 
 <div class="wrap">
 
 <div style="width: 1010px;">
-
-<h2><?php _e( 'YouTube Embed Profiles', 'youtube-embed' ); ?></h2>
+<?php
+global $wp_version;
+if ( ( float ) $wp_version >= 4.3 ) { $heading = '1'; } else { $heading = '2'; }
+?>
+<h<?php echo $heading; ?>><?php _e( 'YouTube Embed Profiles', 'youtube-embed' ); ?></h<?php echo $heading; ?>>
 
 <?php
 

@@ -1,3 +1,4 @@
+<?php header('Content-Type: application/javascript'); ?>
 (function() {
 <?php
 
@@ -17,7 +18,7 @@ if ( isset( $_COOKIE[ $cookie_name ] ) ) { $shortcode = $_COOKIE[ $cookie_name ]
                     var yeOut = 'Insert video URL or ID here';
                 } else {
                     var yeOut = selectText;
-                }            
+                }
                 editor.insertContent('[' + shortcode + ']' + yeOut + '[/' + shortcode + ']');
             }
         });
